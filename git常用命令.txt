@@ -1,0 +1,31 @@
+git --version 查看git版本
+clear 清屏
+mkdir  文件夹名  创建新的git仓库
+ll 查看目录文件
+ll -la 查看隐藏文件
+
+git config --global git.user "name"  添加git 操作者信息
+git init 仓库路径  初始化仓库
+
+
+
+本地库
+git add 文件路径      					 将文件添加到暂存库
+
+git commit -m "文件描述信息" 文件路径  	 将文件提交到本地库
+
+git status  查看git 提交的状态
+
+git log  查看git 提交的日志
+git log --oneline 以好看的形式显示日志
+git reflog 查看git版本
+
+git reset --hard "log中的key"  历史版本回退和前进
+
+rm 文件路径  			删除是工作区的文件
+git add 文件路径		就是删除缓存区文件
+
+git diff 文件路径  		 工作区和缓存区比较
+git diff HEAD 文件路径   缓存区和仓库比较
+
+远程库
