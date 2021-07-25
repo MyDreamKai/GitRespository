@@ -2,6 +2,14 @@ git远程仓库
 
 给远程仓库地址起别名
 git remote add 别名 地址
+git remote set-url 别名 地址   修改地址
 git remote -v 查看别名
+git remote remove 别名  删除远程地址
+
+推送
+git push  远程别名  分支名
+
+克隆
+git clone 远程库地址
 
 
