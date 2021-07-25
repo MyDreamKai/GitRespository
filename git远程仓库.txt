@@ -1,0 +1,7 @@
+git远程仓库
+
+给远程仓库地址起别名
+git remote add 别名 地址
+git remote -v 查看别名
+
+
