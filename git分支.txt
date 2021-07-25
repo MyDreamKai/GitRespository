@@ -1,0 +1,18 @@
+git分支
+
+查看分支
+git branch -v 
+
+创建分支
+git branch 分支名
+
+切换分支
+git checkout 分支名
+
+和并分支
+1.进去主分支在和并分支
+git merge 分支名
+merge conflict in Test4.txt 合并冲突
+
+查看文件
+cat 文件名
